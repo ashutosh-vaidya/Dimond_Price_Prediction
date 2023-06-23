@@ -47,7 +47,7 @@ class DataIngestion:
             logging.info("Data Ingestion is completed.")
 
         except Exception as e:
-            logging.info("Exception occured at the Data Ingesgtion stage. Please review logs.")
+            logging.info("Exception occured at the Data Ingesgtion stage.")
             raise CustomException(e, sys)
 
 ## Code to run the data ingestion file for testingv- To be removed
