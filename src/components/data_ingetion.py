@@ -51,8 +51,11 @@ class DataIngestion:
             raise CustomException(e, sys)
 
 ## Code to run the data ingestion file for testingv- To be removed
+# from src.components.data_transformation import DataTransformation
 # if __name__=='__main__':
 #     obj = DataIngestion()
-#     train_data, test_data = obj.init_data_ingestion()
+#     train_data_path, test_data_path = obj.init_data_ingestion()
+#     data_transfromation = DataTransformation()
+#     train_arr, test_arr, _ = data_transfromation.init_data_transformation(train_data_path,test_data_path)
 
     
