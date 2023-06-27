@@ -36,15 +36,14 @@ class DataIngestion:
             logging.info("Splitting data into train test set")
             train_set, test_set = train_test_split(df, test_size=0.30, random_state=42)
             train_set.to_csv(self.ingestion_config.train_data_path, index=False, header=True)
-            test_set.to_csv(self.ingestion_config.test_data_path, index=False, header=True)
+            test_set.to_csv(self.ingestion_config.test_data_path, index=False, header=True)            
 
+            logging.info("Data Ingestion is completed.")
             #return the train test data path
             return(
                 self.ingestion_config.train_data_path,
                 self.ingestion_config.test_data_path
             )
-
-            logging.info("Data Ingestion is completed.")
 
         except Exception as e:
             logging.info("Exception occured at the Data Ingesgtion stage.")

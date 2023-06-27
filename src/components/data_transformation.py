@@ -58,9 +58,10 @@ class DataTransformation:
                 ('num_pipeline',num_pipeline,numerical_cols),
                 ('cat_pipeline',cat_pipeline,categorical_cols)
             ])
-            return preprocessor
+            
             logging.info("Pipeline Completed.")
             logging.info("Data Preprocessing is completed.")
+            return preprocessor
         except Exception as e:
             logging.info("Exception occured while performing Data Preprocessing.")
             raise CustomException(e, sys)
