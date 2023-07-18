@@ -25,11 +25,11 @@ class PredictPipeline:
             data_scaled = preprocessor.transform(features)
 
             #prediction
-            pred = model.predict(data_scaled)
-            return pred
+            pred = model.predict(data_scaled)            
             logging.info("Prediction Completed.")
+            return pred
         except Exception as e:
-            logging.info("Exception occured in Prediction")
+            logging.info("Exception occurred in Prediction")
             raise CustomException(e, sys) 
 
 class CustomData:
@@ -65,5 +65,5 @@ class CustomData:
             logging.info("Dataframe generated")
             return df
         except Exception as e:
-            logging.info("Exception occured during get_data_as_dataframe method")
+            logging.info("Exception occurred during get_data_as_dataframe method")
             raise CustomException(e, sys)
