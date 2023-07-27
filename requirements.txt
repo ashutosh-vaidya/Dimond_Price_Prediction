@@ -1,7 +1,7 @@
 numpy
 pandas
-Flask==2.3.2
-#seaborn
-#matplotlib
+Flask
+seaborn
+matplotlib
 scikit-learn
-#-e .
+-e .
