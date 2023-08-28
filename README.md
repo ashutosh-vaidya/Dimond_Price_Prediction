@@ -58,6 +58,8 @@ Created using Gradio and solution is deployed on spaces provided by hugging face
 
 [Diamond Price Prediction](https://huggingface.co/spaces/imashutosh/diamond_price_prediction)
 
+![](https://github.com/ashutosh-vaidya/Dimond_Price_Prediction/blob/main/screenshots/demo.gif)
+
 Some Sample values which can be used to input into the inputs
 
 | **Carat** | **Depth** | **Table** | **X** | **Y** | **Z** | **Cut** | **Color** | **Clarity** | **Actual Price** |
