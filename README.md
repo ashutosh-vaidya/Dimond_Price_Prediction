@@ -69,6 +69,9 @@ Some Sample values which can be used to input into the inputs
 |1.52|60.8|59|7.36|7.4|4.49|Premium|G|SI2|9970|
 |1.5|60.1|61|7.45|7.42|4.47|Good|H|IF|12641|
 
+> [!NOTE]   
+> If you see message "This Space is sleeping due to inactivity." Click on **Restart this Space** button.
+
 ****
 
 ## References : 
